@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 0 20px;
+}
+span{
+    /* background-color: red; */
+    
+    
+}
+span > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+}
